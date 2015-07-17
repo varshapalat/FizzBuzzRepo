@@ -11,10 +11,15 @@ public class FizzBuzzTest {
         String result = FizzBuzz.multiple();
         assertEquals("fizz",result);
     }
-    public void shouldReturnFizzIfNumberIsFive(){
+    public void shouldReturnBuzzIfNumberIsFive(){
         FizzBuzz fb = new FizzBuzz(5);
         String result = FizzBuzz.multiple();
         assertEquals("buzz",result);
+    }
+    public void shouldReturnFizzBuzzIfNumberIsFifteen(){
+        FizzBuzz fb = new FizzBuzz(15);
+        String result = FizzBuzz.multiple();
+        assertEquals("fizzbuzz",result);
     }
 
 }
