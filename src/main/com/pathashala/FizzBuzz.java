@@ -15,7 +15,7 @@ public class FizzBuzz {
         else if(value%3 == 0) {
             return "fizz";
         }
-        else if(value == 5)
+        else if(value%5 == 0)
         {
             return "buzz";
         }

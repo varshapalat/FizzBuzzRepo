@@ -36,4 +36,12 @@ public class FizzBuzzTest {
         assertEquals("fizz",result);
     }
 
+    @Test
+    public void shouldReturnBuzzIfNumberIsMultipleOfFive(){
+        FizzBuzz fb = new FizzBuzz(20);
+        String result = FizzBuzz.multiple();
+        assertEquals("buzz",result);
+    }
+    
+
 }
