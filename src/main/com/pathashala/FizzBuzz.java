@@ -19,6 +19,6 @@ public class FizzBuzz {
         {
             return "buzz";
         }
-        return null;
+        return "blah";
     }
 }
