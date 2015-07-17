@@ -1,5 +1,6 @@
 package com.pathashala;
-import org.junit.*;
+
+import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
@@ -10,4 +11,10 @@ public class FizzBuzzTest {
         String result = FizzBuzz.multiple();
         assertEquals("fizz",result);
     }
+    public void shouldReturnFizzIfNumberIsFive(){
+        FizzBuzz fb = new FizzBuzz(5);
+        String result = FizzBuzz.multiple();
+        assertEquals("buzz",result);
+    }
+
 }
