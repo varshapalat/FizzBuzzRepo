@@ -12,7 +12,7 @@ public class FizzBuzz {
         {
             return "fizzbuzz";
         }
-        else if(value == 3) {
+        else if(value%3 == 0) {
             return "fizz";
         }
         else if(value == 5)

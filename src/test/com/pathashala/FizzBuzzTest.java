@@ -29,5 +29,11 @@ public class FizzBuzzTest {
         String result = FizzBuzz.multiple();
         assertEquals("blah",result);
     }
+    @Test
+    public void shouldReturnFizzIfNumberIsMultipleOfThree(){
+        FizzBuzz fb = new FizzBuzz(9);
+        String result = FizzBuzz.multiple();
+        assertEquals("fizz",result);
+    }
 
 }
