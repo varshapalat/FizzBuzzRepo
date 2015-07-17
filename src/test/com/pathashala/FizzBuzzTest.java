@@ -42,6 +42,13 @@ public class FizzBuzzTest {
         String result = FizzBuzz.multiple();
         assertEquals("buzz",result);
     }
-    
+
+    @Test
+    public void shouldReturnBuzzIfNumberIsMultipleOfFifteen(){
+        FizzBuzz fb = new FizzBuzz(60);
+        String result = FizzBuzz.multiple();
+        assertEquals("fizzbuzz",result);
+    }
+
 
 }

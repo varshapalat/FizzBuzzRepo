@@ -8,7 +8,7 @@ public class FizzBuzz {
     }
 
     public static String multiple() {
-        if(value == 15)
+        if(value%15 == 0)
         {
             return "fizzbuzz";
         }
